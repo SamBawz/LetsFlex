@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="EerieBlack">#101126</color>
+    <color name="Maize">#F2C84B</color>
+    <color name="Beer">#F2921D</color>
+    <color name="BurntSienna">#F27052</color>
+    <color name="OffWhite">#FFFDF3</color>
 </resources>
