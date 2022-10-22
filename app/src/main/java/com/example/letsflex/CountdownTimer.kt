@@ -16,7 +16,6 @@ class CountdownTimer : AppCompatActivity() {
         setContentView(R.layout.activity_countdown_timer)
 
         val textView = findViewById<TextView>(R.id.textView)
-        val button = findViewById<Button>(R.id.button)
 
         object : CountDownTimer(5_000, 1){
             override fun onTick(remaining: Long) {
