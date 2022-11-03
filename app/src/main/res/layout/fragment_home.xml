@@ -17,5 +17,33 @@
             android:layout_height="wrap_content"
             android:text="Your exercises" />
 
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="42dp"
+            app:useDefaultMargins="true"
+            app:columnCount="2">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="@dimen/square_button"
+                android:layout_height="@dimen/square_button"
+                android:text="Child pose"
+                android:gravity="bottom"
+                android:textAlignment="center"
+                app:layout_columnWeight="1" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="@dimen/square_button"
+                android:layout_height="@dimen/square_button"
+                android:text="Triangle pose"
+                android:gravity="bottom"
+                android:textAlignment="center"
+                app:layout_columnWeight="1" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
