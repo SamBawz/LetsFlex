@@ -6,25 +6,80 @@
     android:layout_height="match_parent"
     tools:context=".CountdownTimer">
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtExerciseTimerName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="TextView" />
+            android:text="Child pose"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <me.tankery.lib.circularseekbar.CircularSeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="700dp"
+                android:layout_height="700dp"
+                android:layout_centerInParent="true"
+                app:cs_circle_color="@color/white"
+                app:cs_circle_fill="@android:color/transparent"
+                app:cs_circle_progress_color="@color/Beer"
+                app:cs_circle_stroke_width="10dp"
+                app:cs_circle_style="round"
+                app:cs_circle_x_radius="0dp"
+                app:cs_circle_y_radius="0dp"
+                app:cs_disable_pointer="false"
+                app:cs_disable_progress_glow="true"
+                app:cs_hide_progress_when_empty="false"
+                app:cs_lock_enabled="true"
+                app:cs_maintain_equal_circle="true"
+                app:cs_max="100"
+                app:cs_move_outside_circle="true"
+                app:cs_negative_enabled="false"
+                app:cs_pointer_alpha_ontouch="5"
+                app:cs_pointer_angle="0"
+                app:cs_pointer_color="@color/Beer"
+                app:cs_pointer_halo_border_width="20dp"
+                app:cs_pointer_halo_color="@color/Beer"
+                app:cs_pointer_halo_color_ontouch="@color/Beer"
+                app:cs_pointer_halo_width="20dp"
+                app:cs_pointer_stroke_width="20dp"
+                app:cs_progress="0"
+                app:cs_use_custom_radii="false" />
+
+            <TextView
+                android:id="@+id/txtTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2:00"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnStartTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="Button" />
-    </RelativeLayout>
+            android:text="Start exercise!"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

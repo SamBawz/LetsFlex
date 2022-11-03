@@ -5,6 +5,7 @@ import android.app.TimePickerDialog
 import android.app.TimePickerDialog.OnTimeSetListener
 import android.app.usage.UsageEvents
 import android.content.DialogInterface
+import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -66,6 +67,8 @@ class ExerciseDetailsActivity : AppCompatActivity() {
         //builder.setMessage(getString(R.string.yes))
         builder.setPositiveButton("Yes", DialogInterface.OnClickListener { dialog, id ->
             //If yes is pressed
+            val intent = Intent(this@ExerciseDetailsActivity, CountdownTimer::class.java)
+            startActivity(intent)
             dialog.cancel()
         })
         builder.setNegativeButton("No", DialogInterface.OnClickListener { dialog, id ->

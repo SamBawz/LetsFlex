@@ -26,7 +26,7 @@
             app:columnCount="2">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnExerciseChildPose"
                 android:layout_width="@dimen/square_button"
                 android:layout_height="@dimen/square_button"
                 android:text="Child pose"
@@ -35,12 +35,21 @@
                 app:layout_columnWeight="1" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnExerciseTrianglePose"
                 android:layout_width="@dimen/square_button"
                 android:layout_height="@dimen/square_button"
                 android:text="Triangle pose"
                 android:gravity="bottom"
                 android:textAlignment="center"
+                app:layout_columnWeight="1" />
+
+            <Button
+                android:id="@+id/btnAddExercise"
+                android:layout_width="@dimen/square_button"
+                android:layout_height="@dimen/square_button"
+                android:text="+"
+                android:textAlignment="center"
+                android:textSize="100sp"
                 app:layout_columnWeight="1" />
 
         </androidx.gridlayout.widget.GridLayout>
