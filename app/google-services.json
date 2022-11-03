@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "54200263449",
+    "firebase_url": "https://letsflex-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "letsflex",
+    "storage_bucket": "letsflex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54200263449:android:4695d7f192eee01da11b88",
+        "android_client_info": {
+          "package_name": "com.example.letsflex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54200263449-sfjch3tahg7ua8j6f6f80slpteb4059k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATeHYUVpAfV9FkUolI9LZDosJwcMJ7dIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54200263449-sfjch3tahg7ua8j6f6f80slpteb4059k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

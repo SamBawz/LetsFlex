@@ -4,13 +4,27 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/Beer</item>
         <item name="colorPrimaryVariant">@color/Maize</item>
-        <item name="colorOnPrimary">@color/EerieBlack</item>
+        <item name="colorOnPrimary">@color/OffWhite</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/OffWhite</item>
+        <item name="colorSecondary">@color/EerieBlack</item>
         <item name="colorSecondaryVariant">@color/EerieBlack</item>
         <item name="colorOnSecondary">@color/OffWhite</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+
         <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/OffWhite</item>
+        <item name="android:textColor">?attr/colorSecondaryVariant</item>
+        <item name="android:textColorHint">@color/EerieBlack</item>
+
+        <!--
+        <item name="android:textColorPrimary">?attr/colorSecondaryVariant</item>
+        <item name="android:textColorSecondary">?attr/colorSecondaryVariant</item>
+        <item name="android:editTextColor">?attr/colorSecondaryVariant</item>
+        <item name="android:colorPrimary">?attr/colorSecondaryVariant</item>
+        -->
+
+
     </style>
 </resources>
