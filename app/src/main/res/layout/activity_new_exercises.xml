@@ -14,7 +14,7 @@
         android:layout_marginTop="10dp"
         android:text="New workouts"
         android:textSize="36sp"
-        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

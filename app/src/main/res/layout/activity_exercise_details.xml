@@ -31,7 +31,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="Child pose"
                 android:textSize="28sp"
-                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -44,7 +44,7 @@
                 android:layout_marginTop="1dp"
                 android:text="Difficulty:"
                 android:textSize="20sp"
-                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtExerciseName" />
 
@@ -57,7 +57,7 @@
                 android:text="intermediate"
                 android:textColor="#F2921D "
                 android:textSize="20sp"
-                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_semibold"
                 app:layout_constraintStart_toEndOf="@+id/txtExerciseDifficulty"
                 app:layout_constraintTop_toBottomOf="@+id/txtExerciseName" />
 
@@ -70,6 +70,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="This calming pose is a good default pause position. You can use child’s pose to rest and refocus before continuing to your next pose. It gently stretches your lower back, hips, thighs, knees and ankles and relaxes your spine, shoulders and neck."
                 android:textSize="17sp"
+                android:fontFamily="@font/montserrat_regular"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtExerciseDifficulty" />
@@ -93,6 +94,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
                 android:text="Notifications"
+                android:fontFamily="@font/montserrat_bold"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/divider" />
@@ -104,6 +106,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
                 android:text="Time"
+                android:fontFamily="@font/montserrat_bold"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/divider2" />
@@ -140,6 +143,7 @@
                 android:text="00:00"
                 android:textColor="#F2921D "
                 android:textSize="20sp"
+                android:fontFamily="@font/montserrat_bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/divider2" />
 

@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="Child pose"
             android:textSize="32sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
             app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

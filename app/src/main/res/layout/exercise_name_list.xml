@@ -12,5 +12,6 @@
         android:layout_height="wrap_content"
         android:paddingLeft="40sp"
         android:text="Exercise name here"
+        android:fontFamily="@font/montserrat_regular"
         android:textSize="20sp"></TextView>
 </LinearLayout>
