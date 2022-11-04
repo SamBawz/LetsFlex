@@ -15,7 +15,9 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your exercises" />
+            android:text="Your exercises"
+            android:textSize="36sp"
+            android:fontFamily="@font/montserrat_bold"/>
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
@@ -27,27 +29,31 @@
 
             <Button
                 android:id="@+id/btnExerciseChildPose"
-                android:layout_width="@dimen/square_button"
-                android:layout_height="@dimen/square_button"
-                android:text="Child pose"
-                android:fontFamily="@font/montserrat_regular"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="16sp"
                 android:gravity="bottom"
+                android:text="Child pose"
                 android:textAlignment="center"
+                android:drawableTop="@drawable/childpose"
                 app:layout_columnWeight="1" />
 
             <Button
                 android:id="@+id/btnExerciseTrianglePose"
-                android:layout_width="@dimen/square_button"
+                android:layout_width="170dp"
                 android:layout_height="@dimen/square_button"
                 android:text="Triangle pose"
-                android:fontFamily="@font/montserrat_regular"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="16sp"
                 android:gravity="bottom"
                 android:textAlignment="center"
+                android:drawableTop="@drawable/trianglepose2"
                 app:layout_columnWeight="1" />
 
             <Button
                 android:id="@+id/btnAddExercise"
-                android:layout_width="@dimen/square_button"
+                android:layout_width="170dp"
                 android:layout_height="@dimen/square_button"
                 android:text="+"
                 android:fontFamily="@font/montserrat_regular"
