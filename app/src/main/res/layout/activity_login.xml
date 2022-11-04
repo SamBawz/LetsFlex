@@ -24,6 +24,7 @@
                 android:layout_marginTop="30dp"
                 android:ems="10"
                 android:hint="Email"
+                android:fontFamily="@font/montserrat_regular"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +37,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Password"
+                android:fontFamily="@font/montserrat_regular"
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +50,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="50dp"
                 android:text="Log in"
+                android:fontFamily="@font/montserrat_semibold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -59,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="I forgot my password"
+                android:fontFamily="@font/montserrat_regular"
                 android:textColor="@color/Beer"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Login"
+                android:fontFamily="@font/montserrat_bold"
                 android:textSize="36sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -78,6 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Please log in to continue"
+                android:fontFamily="@font/montserrat_regular"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtLoginBanner" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -90,6 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:text="Don't have an account yet? Register here!"
+        android:fontFamily="@font/montserrat_regular"
         app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
